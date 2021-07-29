@@ -1,0 +1,27 @@
+.data_statistik_container {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.chart_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chart_presentase {
+    width: 600px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .data_statistik_container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #chart_presentase {
+        width: 300px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,12 @@
+table {
+    text-align: center;
+}
+
+table td, table th {
+    word-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+}

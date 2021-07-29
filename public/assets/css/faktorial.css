@@ -1,0 +1,15 @@
+#calculator_container .form-control {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+#calculator_container .hasil {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
